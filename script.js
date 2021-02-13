@@ -131,7 +131,7 @@ ScrollTrigger.matchMedia({
                 start: "top center",
                 end: "top 100px",
                 scrub: true,
-                markers: true
+                // markers: true
             }
         });
         tl2.from('.about-img', { yPercent: -100, duration: 3, opacity: 0 })
@@ -184,7 +184,7 @@ ScrollTrigger.matchMedia({
                 start: "top center",
                 end: "top 100",
                 scrub: true,
-                markers: true
+                // markers: true
             }
         });
         tl2.from('.about-img', { yPercent: -100, duration: 3, opacity: 0 })
@@ -194,7 +194,7 @@ ScrollTrigger.matchMedia({
                 start: "top center",
                 end: "top 100",
                 scrub: true,
-                markers: true
+                // markers: true
             }
         });
         tl3.from('.about-content h3', { yPercent: 100, duration: 2, skewY: 5, opacity: 0 }, '-=1')
@@ -206,7 +206,7 @@ ScrollTrigger.matchMedia({
                 start: "top center",
                 end: "top 100",
                 scrub: true,
-                markers: true
+                // markers: true
             }
         });
         container.from('.timeline ul li', { yPercent: 100, duration: 2, stagger: 1, opacity: 0 })
